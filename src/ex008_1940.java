@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class ex8_1940 {
+public class ex008_1940 {
 	  public static void main(String[] args) throws IOException {
 		    BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		    int N = Integer.parseInt(bf.readLine());
