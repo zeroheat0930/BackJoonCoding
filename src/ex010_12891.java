@@ -16,9 +16,9 @@ public class ex010_12891 {
 	    int P = Integer.parseInt(st.nextToken());
 	    int Result = 0;
 	    char A[] = new char[S];
-	    checkArr = new int[4];
-	    myArr = new int[4];
-	    checkSecret = 0;
+	    checkArr = new int[4]; //비밀번호 체크 배열
+	    myArr = new int[4]; // 현재 상태 배열
+	    checkSecret = 0; //상태 충족 횟수 체크
 	    A = bf.readLine().toCharArray();
 	    st = new StringTokenizer(bf.readLine());
 	    for (int i = 0; i < 4; i++) {
